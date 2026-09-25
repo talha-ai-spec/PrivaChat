@@ -1,0 +1,21 @@
+[project]
+name = "openchat"
+version = "0.1.0"
+description = "Private, offline local AI chatbot web application powered by Streamlit and Ollama"
+readme = "README.md"
+authors = [
+    { name = "Talha Adnan", email = "talha-ai-spec@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "ollama>=0.6.2",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+openchat = "openchat:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
