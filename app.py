@@ -2,10 +2,10 @@ import streamlit as st
 import ollama
 
 # Page Configuration
-st.set_page_config(page_title="Ollama Local Chat", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="PrivaChat - Local AI", page_icon="🔒", layout="centered")
 
-st.title("🤖 Ollama Local Chat")
-st.markdown("A simple chatbot powered by Ollama running locally on your machine.")
+st.title("🔒 PrivaChat")
+st.markdown("A private, 100% offline chatbot powered by Ollama running locally on your machine.")
 
 # Initialize Session State for Chat History
 if "messages" not in st.session_state:

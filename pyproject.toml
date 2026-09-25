@@ -1,5 +1,5 @@
 [project]
-name = "openchat"
+name = "privachat"
 version = "0.1.0"
 description = "Private, offline local AI chatbot web application powered by Streamlit and Ollama"
 readme = "README.md"
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-openchat = "openchat:main"
+privachat = "privachat:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

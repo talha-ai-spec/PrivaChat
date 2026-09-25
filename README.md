@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 OpenChat — Private Local AI Chatbot
+# 🔒 PrivaChat — Private Local AI Chatbot
 
 **A sleek, privacy-focused conversational web application powered by Streamlit and Ollama. Run powerful LLMs entirely offline on your local machine with real-time streaming.**
 
@@ -19,7 +19,7 @@
 
 ## 🌟 Overview
 
-**OpenChat** delivers a ChatGPT-like desktop experience without sending a single byte of your data to cloud servers. By pairing **Streamlit**'s rapid UI rendering with **Ollama**'s high-performance local inference runtime, OpenChat lets you chat with cutting-edge open-source models (such as Llama 3, Gemma, Mistral, and DeepSeek) securely, offline, and with real-time token streaming.
+**PrivaChat** delivers a ChatGPT-like desktop experience without sending a single byte of your data to cloud servers. By pairing **Streamlit**'s rapid UI rendering with **Ollama**'s high-performance local inference runtime, PrivaChat lets you chat with cutting-edge open-source models (such as Llama 3, Gemma, Mistral, and DeepSeek) securely, offline, and with real-time token streaming.
 
 ---
 
@@ -66,8 +66,8 @@ Clone this repository and set up your virtual environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/OpenChat.git
-cd OpenChat
+git clone https://github.com/talha-ai-spec/PrivaChat.git
+cd PrivaChat
 
 # Install dependencies using uv (recommended)
 uv sync
@@ -83,7 +83,7 @@ pip install -e .
 
 ### 3. Launching the App
 
-Ensure your Ollama service is running, then launch OpenChat:
+Ensure your Ollama service is running, then launch PrivaChat:
 
 ```bash
 # Using uv:
@@ -99,7 +99,7 @@ The app will automatically launch in your default web browser at `http://localho
 
 ## 🧠 Supported Models
 
-OpenChat dynamically detects any model pulled to your Ollama runtime. Recommended models include:
+PrivaChat dynamically detects any model pulled to your Ollama runtime. Recommended models include:
 
 | Model | Command | Best For |
 |---|---|---|
@@ -114,15 +114,16 @@ OpenChat dynamically detects any model pulled to your Ollama runtime. Recommende
 ## 📁 Project Structure
 
 ```
-OpenChat/
+PrivaChat/
 ├── .gitignore            # Git exclusion patterns
 ├── .python-version       # Python version specification (3.13)
+├── LICENSE               # MIT License
 ├── app.py                # Main Streamlit application and Ollama streaming logic
 ├── pyproject.toml        # Project dependencies and configuration
 ├── README.md             # Project documentation
 ├── uv.lock               # Dependency lockfile
 └── src/
-    └── openchat/
+    └── privachat/
         └── __init__.py   # Package initialization
 ```
 
